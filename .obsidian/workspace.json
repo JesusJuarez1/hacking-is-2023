@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "d19b1caba4752f67",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbd1e954692d2a98",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39daa0ce8d8a458a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "71feee4f5b526777",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f419d77dca7c473",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b0778476e8b0a46",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "34881cfd9dae98f4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "64ce686c4e6f839e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7d70495e275fbfb4",
+    "type": "split",
+    "children": [
+      {
+        "id": "832b92f06ce53917",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35c67f93a58612a8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2e2eb14a06937627",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a880e1bcdc7d7c76",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "be0d5c03a7f31895",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir quick switcher": false,
+      "graph:Abrir vista de gráfico": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "39daa0ce8d8a458a",
+  "lastOpenFiles": [
+    "retos-bandit/Level 6 al 7.md",
+    "retos-bandit/Level 7 al 8.md",
+    "retos-bandit/Level 8 al 9.md",
+    "retos-bandit/Level 9 al 10.md",
+    "retos-bandit/Plantilla.md",
+    "retos-bandit/Level 5 al 6.md",
+    "retos-bandit/Level 4 al 5.md",
+    "retos-bandit/Level 3 al 4.md",
+    "retos-bandit/Level 2 al 3.md",
+    "retos-bandit/Level 0 al 1.md"
+  ]
+}
