@@ -1,4 +1,3 @@
-
 # Bandit Level X al Level
 
 ## Objetivo
