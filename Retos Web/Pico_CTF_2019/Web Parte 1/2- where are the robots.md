@@ -18,7 +18,7 @@ picoCTF{ca1cu1at1ng_Mach1n3s_1bb4c}
 ## Notas adicionales
 | nota | descripción |
 | ------ | ------ |
-| robot.txt | Se le pone al final de una pagina. Sirve para dar o no dar permisos a los robots de que accedan a ciertas partes de la pagina |
+| robots.txt | Se le pone al final de una pagina. Sirve para dar o no dar permisos a los robots de que accedan a ciertas partes de la pagina |
 
 ## Referencias
 - []()
