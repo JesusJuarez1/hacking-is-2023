@@ -1,0 +1,25 @@
+# la cifra de
+
+# Objetivo
+I found this cipher in an old book. Can you figure out what it says? Connect with `nc jupiter.challenges.picoctf.org 5726`.
+
+# Pistas
+- There are tools that make this easy.
+- Perhaps looking at history will help
+
+# Solución
+- Nos conectamos `nc jupiter.challenges.picoctf.org 5726`
+- Pegamos el texto en [Vigenere solver](https://www.guballa.de/vigenere-solver) y esto nos arroja que la llave es "flag"
+- Luego vamos a la pagina de [CyberChef](https://gchq.github.io/CyberChef/#recipe=Vigen%C3%A8re_Decode('flag')&input=RW5jcnlwdGVkIG1lc3NhZ2U6Ck5lIGl5IG55dGt3cHN6bnlnIG50aCBpdCBtdHN6dGN5IHZqenByaiB6ZnpqeSBya2hwaWJqIG5ya2l0dCBsdGMgdG5ueWd5IHlzZWUgaXRkIHR0ZSBjeGpsdGsKCklmcm9zciB0bmogbm9hd2RlIHVrIHNpeXl6cmUsIHlzZSBCbnJldMOod3AgQ291c2V4IG1scyBoanBuIHhqdG5ianl0a2kgeGF0ZCBlaXNqZAoKSXogYmxzIGxmd3NrcWogYXp5Y2loemVlaiB5eiBCcmZ0c2sgaXAgVm9scG7DqHhqIGxzIG95IGhheSB0Y2ltbnlhcnFqIGRreG5yb2dwZCBvcyAxNTUzIG15IE1uenZncyBNYXp5dHN6ZiBNZXJxbHN1IG55IGhveCBtb3VwIFdhIGlucXJnIGlwbC4gWW5yLiBHb3RnYXQgR2x0em5kdGcgR3BscmZkbyAKCkx0YyB0bmogdG12cXBta3NlYXpuem4gdWsgZWhveCBuaXZtcHIgZyB5bGJyaiB0cyBsdGNta2kgbXkgeXF0ZG9zciB0bmogd29jamMgaGdxcSBvbCBmeSBveGl0bmd3aiBhcnVzYWhqZSBmdXcgbG4gZ3VhYXhqeXRyZCBjYXRpem0gdHp4Ymt3IHpmIHZxbGNreCBoaXptIGNleXVwY3ogeXogdG5qIGZwdmpjIGhncXFwb2h6Q1pLe20zMTFhNTBfMHhfYTFybjN4M19oMWFoM3g2a3A2MGVnZn0KCkVoayBrdHJ5eSBoZXJxLW9vaXp4ZXR5cGQgampkY3huYXRvdHkgb2wgZiBhb3JkbGx2bWxia3l0YyBpbmFoa3cgc29jamdleCwgYmxzIHNmb2UgZ3d6dXRpIDE0NjcgbXkgUmp6biBIZmV0b3hlYSBHcW1leHl0LgoKVG5qIEdpbWp5w6hyayBIdHBuamMgaXkgeXNleGpxb3hqIGRvc2plaXNqZCBjZ3F3ZWogeXNlIEdxbWV4eXQgRG94biBveCBGd2Jrd2VpIEluYWhrdy4KClRuIDE1MDgsIFB0c2F0c3BzIFp3dHRuanhpYXggdG5ianl0a2kgZWhrIHh6LWNncXdlaiB5bGJhcWwgcmtoZWEgKGcgcmx0eG5pIG9sIHhzaWx5cGQgZ3FhaGdncHR5KSB5c2F6IGJ6dXJpIHdhempjIGJrIGYgbnJveXRjZ3Egbm9zdXpua3NlIG9sIHlzZSBCbnJldMOod3AgQ291c2V4LgoKR3BscmZkb%2BKAmXkgeHBjdXNvIGJ1dHZsa3kgbHB2amxya2kgdG4gMTU1NSBneCBsIGN1c2VpdHpsdG90eSBvbCB5c2UgbG5jc3ouIFlzZSBydGhleCBtbGxiamQgb2wgeXNlIGdxYWhnZ3B0eSBmY2UgdHRoIHNubnF0a2kgY2VtendheHFqLCBiYXkgZWhrIGZ3cG5mbWV6eCBsbmogeXNlIG9zb2VkIHFwdHpqY3MgZ3dwIG1vY3BkIGhkIHhlZ3NkIG9sIGYgeG5rcnpub2ggdmVlIHVzcmd4cCwgd25ubmggaWZ5IGJrIGl0ZmxqY2V0eSBoaXptIHBhaW0gbm94d3BzdnR5ZGtzZS4) Le volvemos a pegar el texto y ponemos el filtro de vigenere el cual nos va pedir la llave (flag)
+- Se la ponemos y encontramos la llave en el texto desencriptado
+
+# Bandera
+picoCTF{b311a50_0r_v1gn3r3_c1ph3r6fe60eaa}
+
+## Notas adicionales
+| comando | descripción |
+| ------ | ------ |
+| xx | xx |
+
+## Referencias
+- []()
